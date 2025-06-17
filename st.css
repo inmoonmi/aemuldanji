@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "KNPSKkomi-Regular00";
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KNPSKkomi-Regular00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KNPSBandali-Regular00";
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KNPSBandali-Regular00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 바디 */
+
+body {
+  background-image: url(images/bg.png);
+  background-size: cover;
+  font-family: "KNPSBandali-Regular00", sans-serif;
+}
+
+/* 글꼴 */
+
+.KNPSKkomi {
+  font-family: "KNPSKkomi-Regular00", sans-serif;
+}
+
+.KNPSBandali {
+  font-family: "KNPSBandali-Regular00", sans-serif;
+}
+
+/* 네비게이션 */
+
+.nav-underline .nav-link.active {
+  border-bottom: 2px solid #db0000; 
+}
+
+.custom-navbar {
+  background-color: rgb(255, 255, 255);
+  color:black;
+}
+
+/* 버튼 */
+
+.custom-btn {
+  color: #ffffff;               
+  background-color: #ff5d5d; 
+}
+
+.custom-btn:hover {
+  background-color: #ac2828;    
+  border-color: #7e000067;
+  color: #fff;
+}
+
+/* 로그인 */
+
+.custom-login {
+  background-color: rgba(255, 255, 255, 0.76); 
+  border-radius: 15px;                        
+}
+
+.custom-login-btn {
+  background-color: #ff6f61;   
+  border: none;
+  color: white;
+}
+
+.custom-login-btn:hover {
+  background-color: #e0554d;  
+}
+
+/* 캐러셀 */
+
+.carousel-control-prev-icon {
+  background-image: url("images/arrow-left.svg");
+}
+
+.carousel-control-next-icon {
+  background-image: url("images/arrow-right.svg");
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
+.carousel-indicators .active {
+  background-color: #ff8080;
+}
+
+/* 인트로 */
+
+#intro {
+    background-image: linear-gradient(rgba(255, 240, 193, 0.651), rgba(238, 49, 255, 0.418)), url(images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 추천상품 */
+
+.custom-section-style {
+  background-color: rgba(255, 255, 255, 0.6); 
+  border-radius: 20px;                       
+  padding: 30px;                             
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+}
+
+/* 문의사항 */
+
+.custom-matterbox {
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 30px;                             
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);  
+}
+
+/* 회원가입 */
+
+.form-box {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffffaf;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+}
+
+.gender-btn {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.gender-btn:hover {
+  background-color: #e0554d;  
+}
+
+.gender-select {
+  display: flex;
+  gap: 10px;
+}
+
+.privacy-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  height: 150px;
+  overflow-y: scroll;
+  background-color: #fefefe;
+  border-radius: 5px;
+}
+
+
+/* 마이페이지 */
+
+.box {
+  background-color: #ffffffb4;
+  border-radius: 20px;
+  padding: 1.5rem;
+}
+
+.photo-box {
+  height: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.name-box,
+.birth-box,
+.like-box,
+.intro-box,
+.calendar-box {
+  margin-bottom: 1rem;
+}
+
+.intro-box {
+  max-width: none;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.showcase-box {
+  background-color: #ffffffb4;
+  border-radius: 20px;
+  height: 150px;
+}
+
+.calendar-box {
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+
+/* 뉴스 테이블 */
+
+.list-group-item.active {
+    background-color: #ff8787; 
+    color: #000;               
+    border-color: #995a5a;
+  }
+
+  .pagination .page-link {
+    color: #000000;            
+    background-color: #ffffff83;   
+    border: 1px solid #995a5a; 
+  }
+
+  .pagination .page-link:hover {
+    background-color: #ff8080;
+    color: #ffffff;
+  }
+
+
+  /* 장르 리스트 테이블 */
+  
+.table-container {
+  background-color: #f9f9f9b4; 
+  padding: 15px;
+  border-radius: 6px; 
+}
+
+.info-box {
+  border-bottom: 1px solid #ddd; 
+  padding: 10px 0;
+}
+
+.info-box:last-child {
+  border-bottom: none;
+}
+
+.info-logo {
+  width: 80px;
+  height: auto;
+  object-fit: contain; 
+}
